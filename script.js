@@ -50,7 +50,7 @@ function writePassword() {
 }
 
 function generateLowerCase() {
-console.log(lowerCaseLtrs[Math.floor(Math.random() * lowerCaseLtrs.length)])
+// console.log(lowerCaseLtrs[Math.floor(Math.random() * lowerCaseLtrs.length)])
 return lowerCaseLtrs[Math.floor(Math.random() * lowerCaseLtrs.length)]
 
 }
@@ -58,10 +58,10 @@ function generateUpperCase() {
  return upperCaseLtrs[Math.floor(Math.random() * upperCaseLtrs.length)]
 }
 function generateNumbers(){
-  return numbers[Math.floor(Math.random * numbers.length)]
+  return numbers[Math.floor(Math.random() * numbers.length)]
 }
 function generateSymbols(){
-return symbols[Math.floor(Math.random * symbols.length)]
+return symbols[Math.floor(Math.random() * symbols.length)]
 }
 
 // Add event listener to generate button
