@@ -38,7 +38,6 @@ function writePassword() {
 
 }
 
-
 // var password = generatePassword();
 
 var passwordText = document.querySelector("#password")
@@ -46,7 +45,6 @@ var passwordText = document.querySelector("#password")
 // if (length >= 8 || length <= 128 ) {
 
 // }
-
 
 passwordText.value = password;
 
