@@ -1,3 +1,4 @@
+![Screen Shot 2021-05-22 at 10 56 55 PM](https://user-images.githubusercontent.com/78561316/119250673-8b162d00-bb56-11eb-89e8-bc161c994106.png)
 # Unique-Password-Generator
 A password Generator that creates unique passwords for the user.
 My motivation for this project was the hope to test what I know in Javascript and create a functional project that I am proud of.
