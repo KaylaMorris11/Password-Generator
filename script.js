@@ -21,10 +21,11 @@ function writePassword() {
 
   if (length < 8 || length > 128) {
     alert("Password must be 8 to 128 characters long.")}
+  else {
 wantUpperCase = confirm("Do you want lower case letters in your password?")
 wantLowerCase = confirm("Do you want numbers in your password?")
 wantNumbers = confirm("Do you want numbers in your password?")
-wantSymbols = confirm("Do you want symbols in your password?")
+wantSymbols = confirm("Do you want symbols in your password?")}
 
   wantLower
   if (wantUppercase === true) {
@@ -56,4 +57,3 @@ passwordText.value = password;
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword());
-
